@@ -1,0 +1,3 @@
+n most programming languages, when you declare an array with a fixed size, the memory for that array is typically allocated either on the stack or the heap. However, the specifics can vary depending on the language and the context.
+
+Let's consider languages like C and C++, which allow you to create static arrays on the stack. In these languages, the stack is a region of memory that is used for storing local variables and function call information. When you declare an array as a local variable, and the size of the array is known at compile time, the compiler can allocate memory for that array on the stack.
